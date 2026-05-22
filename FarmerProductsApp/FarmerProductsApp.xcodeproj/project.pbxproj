@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		548B3E882FBFB9D500E9AE2A /* FarmerProductsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3E872FBFB9D500E9AE2A /* FarmerProductsAppApp.swift */; };
+		548B3E8A2FBFB9D500E9AE2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3E892FBFB9D500E9AE2A /* ContentView.swift */; };
+		548B3E8C2FBFB9D700E9AE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548B3E8B2FBFB9D700E9AE2A /* Assets.xcassets */; };
+		548B3E8F2FBFB9D700E9AE2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548B3E8E2FBFB9D700E9AE2A /* Preview Assets.xcassets */; };
+		548B3E992FBFB9D700E9AE2A /* FarmerProductsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3E982FBFB9D700E9AE2A /* FarmerProductsAppTests.swift */; };
+		548B3EA32FBFB9D700E9AE2A /* FarmerProductsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3EA22FBFB9D700E9AE2A /* FarmerProductsAppUITests.swift */; };
+		548B3EA52FBFB9D700E9AE2A /* FarmerProductsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3EA42FBFB9D700E9AE2A /* FarmerProductsAppUITestsLaunchTests.swift */; };
+		548B3EB32FC0220E00E9AE2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548B3EB12FC0220E00E9AE2A /* Localizable.strings */; };
+		548B3EBC2FC0245400E9AE2A /* FarmerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3EBB2FC0245400E9AE2A /* FarmerProduct.swift */; };
+		548B3EBE2FC0248500E9AE2A /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3EBD2FC0248500E9AE2A /* CatalogViewModel.swift */; };
+		548B3EC02FC024B200E9AE2A /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548B3EBF2FC024B200E9AE2A /* CatalogView.swift */; };
+		54B5D4D82FC033D800486D91 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4D72FC033D800486D91 /* CartItem.swift */; };
+		54B5D4DA2FC0341400486D91 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4D92FC0341400486D91 /* CartViewModel.swift */; };
+		54B5D4DC2FC0343800486D91 /* FarmMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4DB2FC0343800486D91 /* FarmMapView.swift */; };
+		54B5D4DE2FC0345600486D91 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4DD2FC0345600486D91 /* CartView.swift */; };
+		54B5D4E02FC0347A00486D91 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4DF2FC0347A00486D91 /* CheckoutView.swift */; };
+		54B5D4E22FC034A400486D91 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4E12FC034A400486D91 /* RegistrationView.swift */; };
+		54B5D4E72FC03D3100486D91 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4E62FC03D3100486D91 /* ProfileView.swift */; };
+		54B5D4EA2FC03DF400486D91 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B5D4E92FC03DF400486D91 /* DatabaseManager.swift */; };
+		54B5D4ED2FC0410B00486D91 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 54B5D4EC2FC0410B00486D91 /* SQLite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		548B3E952FBFB9D700E9AE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 548B3E7C2FBFB9D500E9AE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548B3E832FBFB9D500E9AE2A;
+			remoteInfo = FarmerProductsApp;
+		};
+		548B3E9F2FBFB9D700E9AE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 548B3E7C2FBFB9D500E9AE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548B3E832FBFB9D500E9AE2A;
+			remoteInfo = FarmerProductsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		548B3E842FBFB9D500E9AE2A /* FarmerProductsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerProductsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548B3E872FBFB9D500E9AE2A /* FarmerProductsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerProductsAppApp.swift; sourceTree = "<group>"; };
+		548B3E892FBFB9D500E9AE2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		548B3E8B2FBFB9D700E9AE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		548B3E8E2FBFB9D700E9AE2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		548B3E942FBFB9D700E9AE2A /* FarmerProductsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerProductsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548B3E982FBFB9D700E9AE2A /* FarmerProductsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerProductsAppTests.swift; sourceTree = "<group>"; };
+		548B3E9E2FBFB9D700E9AE2A /* FarmerProductsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerProductsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548B3EA22FBFB9D700E9AE2A /* FarmerProductsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerProductsAppUITests.swift; sourceTree = "<group>"; };
+		548B3EA42FBFB9D700E9AE2A /* FarmerProductsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerProductsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		548B3EB22FC0220E00E9AE2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		548B3EB42FC0224900E9AE2A /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Localizable.strings; sourceTree = "<group>"; };
+		548B3EB52FC0224A00E9AE2A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		548B3EBB2FC0245400E9AE2A /* FarmerProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerProduct.swift; sourceTree = "<group>"; };
+		548B3EBD2FC0248500E9AE2A /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		548B3EBF2FC024B200E9AE2A /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		54B5D4D72FC033D800486D91 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		54B5D4D92FC0341400486D91 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		54B5D4DB2FC0343800486D91 /* FarmMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmMapView.swift; sourceTree = "<group>"; };
+		54B5D4DD2FC0345600486D91 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		54B5D4DF2FC0347A00486D91 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		54B5D4E12FC034A400486D91 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		54B5D4E62FC03D3100486D91 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		54B5D4E92FC03DF400486D91 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548B3E812FBFB9D500E9AE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B5D4ED2FC0410B00486D91 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548B3E912FBFB9D700E9AE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548B3E9B2FBFB9D700E9AE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548B3E7B2FBFB9D500E9AE2A = {
+			isa = PBXGroup;
+			children = (
+				548B3EB12FC0220E00E9AE2A /* Localizable.strings */,
+				548B3E862FBFB9D500E9AE2A /* FarmerProductsApp */,
+				548B3E972FBFB9D700E9AE2A /* FarmerProductsAppTests */,
+				548B3EA12FBFB9D700E9AE2A /* FarmerProductsAppUITests */,
+				548B3E852FBFB9D500E9AE2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		548B3E852FBFB9D500E9AE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548B3E842FBFB9D500E9AE2A /* FarmerProductsApp.app */,
+				548B3E942FBFB9D700E9AE2A /* FarmerProductsAppTests.xctest */,
+				548B3E9E2FBFB9D700E9AE2A /* FarmerProductsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548B3E862FBFB9D500E9AE2A /* FarmerProductsApp */ = {
+			isa = PBXGroup;
+			children = (
+				54B5D4E82FC03D9500486D91 /* Database */,
+				548B3EBA2FC023FD00E9AE2A /* Utilities */,
+				548B3EB92FC023F200E9AE2A /* Services */,
+				548B3EB82FC023E300E9AE2A /* Views */,
+				548B3EB72FC023D200E9AE2A /* ViewModels */,
+				548B3EB62FC023C000E9AE2A /* Models */,
+				548B3E872FBFB9D500E9AE2A /* FarmerProductsAppApp.swift */,
+				548B3E892FBFB9D500E9AE2A /* ContentView.swift */,
+				548B3E8B2FBFB9D700E9AE2A /* Assets.xcassets */,
+				548B3E8D2FBFB9D700E9AE2A /* Preview Content */,
+			);
+			path = FarmerProductsApp;
+			sourceTree = "<group>";
+		};
+		548B3E8D2FBFB9D700E9AE2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				548B3E8E2FBFB9D700E9AE2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		548B3E972FBFB9D700E9AE2A /* FarmerProductsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				548B3E982FBFB9D700E9AE2A /* FarmerProductsAppTests.swift */,
+			);
+			path = FarmerProductsAppTests;
+			sourceTree = "<group>";
+		};
+		548B3EA12FBFB9D700E9AE2A /* FarmerProductsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				548B3EA22FBFB9D700E9AE2A /* FarmerProductsAppUITests.swift */,
+				548B3EA42FBFB9D700E9AE2A /* FarmerProductsAppUITestsLaunchTests.swift */,
+			);
+			path = FarmerProductsAppUITests;
+			sourceTree = "<group>";
+		};
+		548B3EB62FC023C000E9AE2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				548B3EBB2FC0245400E9AE2A /* FarmerProduct.swift */,
+				54B5D4D72FC033D800486D91 /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		548B3EB72FC023D200E9AE2A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				548B3EBD2FC0248500E9AE2A /* CatalogViewModel.swift */,
+				54B5D4D92FC0341400486D91 /* CartViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		548B3EB82FC023E300E9AE2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				548B3EBF2FC024B200E9AE2A /* CatalogView.swift */,
+				54B5D4DB2FC0343800486D91 /* FarmMapView.swift */,
+				54B5D4DD2FC0345600486D91 /* CartView.swift */,
+				54B5D4DF2FC0347A00486D91 /* CheckoutView.swift */,
+				54B5D4E12FC034A400486D91 /* RegistrationView.swift */,
+				54B5D4E62FC03D3100486D91 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		548B3EB92FC023F200E9AE2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		548B3EBA2FC023FD00E9AE2A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		54B5D4E82FC03D9500486D91 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				54B5D4E92FC03DF400486D91 /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548B3E832FBFB9D500E9AE2A /* FarmerProductsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548B3EA82FBFB9D700E9AE2A /* Build configuration list for PBXNativeTarget "FarmerProductsApp" */;
+			buildPhases = (
+				548B3E802FBFB9D500E9AE2A /* Sources */,
+				548B3E812FBFB9D500E9AE2A /* Frameworks */,
+				548B3E822FBFB9D500E9AE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerProductsApp;
+			packageProductDependencies = (
+				54B5D4EC2FC0410B00486D91 /* SQLite */,
+			);
+			productName = FarmerProductsApp;
+			productReference = 548B3E842FBFB9D500E9AE2A /* FarmerProductsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		548B3E932FBFB9D700E9AE2A /* FarmerProductsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548B3EAB2FBFB9D700E9AE2A /* Build configuration list for PBXNativeTarget "FarmerProductsAppTests" */;
+			buildPhases = (
+				548B3E902FBFB9D700E9AE2A /* Sources */,
+				548B3E912FBFB9D700E9AE2A /* Frameworks */,
+				548B3E922FBFB9D700E9AE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548B3E962FBFB9D700E9AE2A /* PBXTargetDependency */,
+			);
+			name = FarmerProductsAppTests;
+			productName = FarmerProductsAppTests;
+			productReference = 548B3E942FBFB9D700E9AE2A /* FarmerProductsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		548B3E9D2FBFB9D700E9AE2A /* FarmerProductsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548B3EAE2FBFB9D700E9AE2A /* Build configuration list for PBXNativeTarget "FarmerProductsAppUITests" */;
+			buildPhases = (
+				548B3E9A2FBFB9D700E9AE2A /* Sources */,
+				548B3E9B2FBFB9D700E9AE2A /* Frameworks */,
+				548B3E9C2FBFB9D700E9AE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548B3EA02FBFB9D700E9AE2A /* PBXTargetDependency */,
+			);
+			name = FarmerProductsAppUITests;
+			productName = FarmerProductsAppUITests;
+			productReference = 548B3E9E2FBFB9D700E9AE2A /* FarmerProductsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548B3E7C2FBFB9D500E9AE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					548B3E832FBFB9D500E9AE2A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					548B3E932FBFB9D700E9AE2A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 548B3E832FBFB9D500E9AE2A;
+					};
+					548B3E9D2FBFB9D700E9AE2A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 548B3E832FBFB9D500E9AE2A;
+					};
+				};
+			};
+			buildConfigurationList = 548B3E7F2FBFB9D500E9AE2A /* Build configuration list for PBXProject "FarmerProductsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				be,
+			);
+			mainGroup = 548B3E7B2FBFB9D500E9AE2A;
+			packageReferences = (
+				54B5D4EB2FC0410B00486D91 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = 548B3E852FBFB9D500E9AE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548B3E832FBFB9D500E9AE2A /* FarmerProductsApp */,
+				548B3E932FBFB9D700E9AE2A /* FarmerProductsAppTests */,
+				548B3E9D2FBFB9D700E9AE2A /* FarmerProductsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548B3E822FBFB9D500E9AE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548B3E8F2FBFB9D700E9AE2A /* Preview Assets.xcassets in Resources */,
+				548B3EB32FC0220E00E9AE2A /* Localizable.strings in Resources */,
+				548B3E8C2FBFB9D700E9AE2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548B3E922FBFB9D700E9AE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548B3E9C2FBFB9D700E9AE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548B3E802FBFB9D500E9AE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B5D4DE2FC0345600486D91 /* CartView.swift in Sources */,
+				54B5D4E72FC03D3100486D91 /* ProfileView.swift in Sources */,
+				54B5D4E02FC0347A00486D91 /* CheckoutView.swift in Sources */,
+				548B3EBE2FC0248500E9AE2A /* CatalogViewModel.swift in Sources */,
+				54B5D4E22FC034A400486D91 /* RegistrationView.swift in Sources */,
+				548B3EBC2FC0245400E9AE2A /* FarmerProduct.swift in Sources */,
+				54B5D4EA2FC03DF400486D91 /* DatabaseManager.swift in Sources */,
+				54B5D4DC2FC0343800486D91 /* FarmMapView.swift in Sources */,
+				548B3E8A2FBFB9D500E9AE2A /* ContentView.swift in Sources */,
+				54B5D4DA2FC0341400486D91 /* CartViewModel.swift in Sources */,
+				548B3E882FBFB9D500E9AE2A /* FarmerProductsAppApp.swift in Sources */,
+				548B3EC02FC024B200E9AE2A /* CatalogView.swift in Sources */,
+				54B5D4D82FC033D800486D91 /* CartItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548B3E902FBFB9D700E9AE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548B3E992FBFB9D700E9AE2A /* FarmerProductsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548B3E9A2FBFB9D700E9AE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548B3EA32FBFB9D700E9AE2A /* FarmerProductsAppUITests.swift in Sources */,
+				548B3EA52FBFB9D700E9AE2A /* FarmerProductsAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		548B3E962FBFB9D700E9AE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548B3E832FBFB9D500E9AE2A /* FarmerProductsApp */;
+			targetProxy = 548B3E952FBFB9D700E9AE2A /* PBXContainerItemProxy */;
+		};
+		548B3EA02FBFB9D700E9AE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548B3E832FBFB9D500E9AE2A /* FarmerProductsApp */;
+			targetProxy = 548B3E9F2FBFB9D700E9AE2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		548B3EB12FC0220E00E9AE2A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548B3EB22FC0220E00E9AE2A /* en */,
+				548B3EB42FC0224900E9AE2A /* be */,
+				548B3EB52FC0224A00E9AE2A /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		548B3EA62FBFB9D700E9AE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		548B3EA72FBFB9D700E9AE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		548B3EA92FBFB9D700E9AE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FarmerProductsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app-OS.FarmerProductsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		548B3EAA2FBFB9D700E9AE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FarmerProductsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app-OS.FarmerProductsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		548B3EAC2FBFB9D700E9AE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app-OS.FarmerProductsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmerProductsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FarmerProductsApp";
+			};
+			name = Debug;
+		};
+		548B3EAD2FBFB9D700E9AE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app-OS.FarmerProductsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmerProductsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FarmerProductsApp";
+			};
+			name = Release;
+		};
+		548B3EAF2FBFB9D700E9AE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app-OS.FarmerProductsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FarmerProductsApp;
+			};
+			name = Debug;
+		};
+		548B3EB02FBFB9D700E9AE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app-OS.FarmerProductsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FarmerProductsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548B3E7F2FBFB9D500E9AE2A /* Build configuration list for PBXProject "FarmerProductsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548B3EA62FBFB9D700E9AE2A /* Debug */,
+				548B3EA72FBFB9D700E9AE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548B3EA82FBFB9D700E9AE2A /* Build configuration list for PBXNativeTarget "FarmerProductsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548B3EA92FBFB9D700E9AE2A /* Debug */,
+				548B3EAA2FBFB9D700E9AE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548B3EAB2FBFB9D700E9AE2A /* Build configuration list for PBXNativeTarget "FarmerProductsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548B3EAC2FBFB9D700E9AE2A /* Debug */,
+				548B3EAD2FBFB9D700E9AE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548B3EAE2FBFB9D700E9AE2A /* Build configuration list for PBXNativeTarget "FarmerProductsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548B3EAF2FBFB9D700E9AE2A /* Debug */,
+				548B3EB02FBFB9D700E9AE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54B5D4EB2FC0410B00486D91 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54B5D4EC2FC0410B00486D91 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54B5D4EB2FC0410B00486D91 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 548B3E7C2FBFB9D500E9AE2A /* Project object */;
+}

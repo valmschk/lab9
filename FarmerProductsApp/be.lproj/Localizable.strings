@@ -1,0 +1,56 @@
+// MARK: - Tab Bar
+"Catalog" = "Каталог";
+"Map" = "Карта";
+"Cart" = "Кошык";
+"Profile" = "Профіль";
+
+// MARK: - Catalog Screen
+"catalog_title" = "Каталог фермераў";
+"product_milk" = "Фермерскае малако 1л";
+"product_honey" = "Натуральны мёд";
+"product_cheese" = "Фермерскі сыр";
+"product_eggs" = "Свежыя яйкі";
+"product_bread" = "Арганічны хлеб";
+
+// MARK: - Cart Screen
+"Cart" = "Кошык";
+"Total:" = "Разам:";
+"Checkout" = "Аформіць заказ";
+
+// MARK: - Checkout Screen
+"Delivery Address" = "Адрас дастаўкі";
+"Payment Method" = "Спосаб аплаты";
+"Order Summary" = "Зводка заказа";
+"Place Order" = "Размясціць заказ";
+"Order Confirmed!" = "Заказ пацверджаны!";
+"Your order has been placed successfully" = "Ваш заказ паспяхова размешчаны";
+
+// MARK: - Payment Methods
+"Payment Online" = "Аплата онлайн";
+"ERIP" = "ЕРІП";
+"Card Terminal" = "Тэрмінал";
+"Cash" = "Наяўныя";
+
+// MARK: - Profile Screen
+"Profile" = "Профіль";
+"Logout" = "Выйсці";
+"Are you sure you want to logout?" = "Вы ўпэўнены, што хочаце выйсці?";
+"Cancel" = "Адмена";
+
+// MARK: - Registration Screen
+"Registration" = "Рэгістрацыя";
+"Name" = "Імя";
+"Email" = "Эл. пошта";
+"Register" = "Зарэгістравацца";
+"Farmer Products" = "Фермерскія прадукты";
+
+// MARK: - Map Screen
+"Farm Details" = "Дэталі фермы";
+"Close" = "Закрыць";
+"Add to Cart" = "У кошык";
+
+// MARK: - Common
+"OK" = "Добра";
+"Cancel" = "Адмена";
+"You tapped" = "Вы націснулі";
+"Added to cart" = "Дададзена ў кошык";
