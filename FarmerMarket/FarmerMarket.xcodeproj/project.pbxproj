@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546A51EF2FC8A4BC005B705D /* FarmerMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A51EE2FC8A4BC005B705D /* FarmerMarketApp.swift */; };
+		546A51F12FC8A4BC005B705D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A51F02FC8A4BC005B705D /* ContentView.swift */; };
+		546A51F32FC8A4BE005B705D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546A51F22FC8A4BE005B705D /* Assets.xcassets */; };
+		546A51F62FC8A4BE005B705D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546A51F52FC8A4BE005B705D /* Preview Assets.xcassets */; };
+		546A52012FC8A559005B705D /* FarmerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52002FC8A559005B705D /* FarmerProduct.swift */; };
+		546A52032FC8A593005B705D /* CatalologViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52022FC8A593005B705D /* CatalologViewModel.swift */; };
+		546A52052FC8A5DF005B705D /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52042FC8A5DF005B705D /* CatalogView.swift */; };
+		546A52082FC8A6B7005B705D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 546A52062FC8A6B7005B705D /* Localizable.strings */; };
+		546A520C2FC8A7F5005B705D /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A520B2FC8A7F5005B705D /* DatabaseManager.swift */; };
+		546A520E2FC8A825005B705D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A520D2FC8A825005B705D /* UserManager.swift */; };
+		546A52102FC8A85A005B705D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A520F2FC8A85A005B705D /* MapView.swift */; };
+		546A52122FC8A9C4005B705D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52112FC8A9C4005B705D /* OrderView.swift */; };
+		546A52142FC8AD4D005B705D /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52132FC8AD4D005B705D /* OrderHistoryView.swift */; };
+		546A52162FC8ADAE005B705D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52152FC8ADAE005B705D /* RegisterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		546A51EB2FC8A4BC005B705D /* FarmerMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		546A51EE2FC8A4BC005B705D /* FarmerMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerMarketApp.swift; sourceTree = "<group>"; };
+		546A51F02FC8A4BC005B705D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		546A51F22FC8A4BE005B705D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546A51F52FC8A4BE005B705D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		546A52002FC8A559005B705D /* FarmerProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerProduct.swift; sourceTree = "<group>"; };
+		546A52022FC8A593005B705D /* CatalologViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalologViewModel.swift; sourceTree = "<group>"; };
+		546A52042FC8A5DF005B705D /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		546A52072FC8A6B7005B705D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		546A52092FC8A75F005B705D /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/Localizable.strings; sourceTree = "<group>"; };
+		546A520A2FC8A760005B705D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		546A520B2FC8A7F5005B705D /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		546A520D2FC8A825005B705D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		546A520F2FC8A85A005B705D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		546A52112FC8A9C4005B705D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		546A52132FC8AD4D005B705D /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
+		546A52152FC8ADAE005B705D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546A51E82FC8A4BC005B705D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546A51E22FC8A4BC005B705D = {
+			isa = PBXGroup;
+			children = (
+				546A51ED2FC8A4BC005B705D /* FarmerMarket */,
+				546A51EC2FC8A4BC005B705D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546A51EC2FC8A4BC005B705D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546A51EB2FC8A4BC005B705D /* FarmerMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546A51ED2FC8A4BC005B705D /* FarmerMarket */ = {
+			isa = PBXGroup;
+			children = (
+				546A51FF2FC8A523005B705D /* ViewModels */,
+				546A51FE2FC8A516005B705D /* Services */,
+				546A51FD2FC8A509005B705D /* Views */,
+				546A51FC2FC8A4F7005B705D /* Models */,
+				546A51EE2FC8A4BC005B705D /* FarmerMarketApp.swift */,
+				546A51F02FC8A4BC005B705D /* ContentView.swift */,
+				546A51F22FC8A4BE005B705D /* Assets.xcassets */,
+				546A51F42FC8A4BE005B705D /* Preview Content */,
+				546A52062FC8A6B7005B705D /* Localizable.strings */,
+			);
+			path = FarmerMarket;
+			sourceTree = "<group>";
+		};
+		546A51F42FC8A4BE005B705D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				546A51F52FC8A4BE005B705D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		546A51FC2FC8A4F7005B705D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				546A52002FC8A559005B705D /* FarmerProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		546A51FD2FC8A509005B705D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				546A52042FC8A5DF005B705D /* CatalogView.swift */,
+				546A520F2FC8A85A005B705D /* MapView.swift */,
+				546A52112FC8A9C4005B705D /* OrderView.swift */,
+				546A52132FC8AD4D005B705D /* OrderHistoryView.swift */,
+				546A52152FC8ADAE005B705D /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		546A51FE2FC8A516005B705D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				546A520B2FC8A7F5005B705D /* DatabaseManager.swift */,
+				546A520D2FC8A825005B705D /* UserManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		546A51FF2FC8A523005B705D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				546A52022FC8A593005B705D /* CatalologViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546A51EA2FC8A4BC005B705D /* FarmerMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546A51F92FC8A4BE005B705D /* Build configuration list for PBXNativeTarget "FarmerMarket" */;
+			buildPhases = (
+				546A51E72FC8A4BC005B705D /* Sources */,
+				546A51E82FC8A4BC005B705D /* Frameworks */,
+				546A51E92FC8A4BC005B705D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerMarket;
+			productName = FarmerMarket;
+			productReference = 546A51EB2FC8A4BC005B705D /* FarmerMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546A51E32FC8A4BC005B705D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					546A51EA2FC8A4BC005B705D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 546A51E62FC8A4BC005B705D /* Build configuration list for PBXProject "FarmerMarket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				be,
+			);
+			mainGroup = 546A51E22FC8A4BC005B705D;
+			productRefGroup = 546A51EC2FC8A4BC005B705D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546A51EA2FC8A4BC005B705D /* FarmerMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546A51E92FC8A4BC005B705D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546A51F62FC8A4BE005B705D /* Preview Assets.xcassets in Resources */,
+				546A52082FC8A6B7005B705D /* Localizable.strings in Resources */,
+				546A51F32FC8A4BE005B705D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546A51E72FC8A4BC005B705D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546A52162FC8ADAE005B705D /* RegisterView.swift in Sources */,
+				546A52012FC8A559005B705D /* FarmerProduct.swift in Sources */,
+				546A52102FC8A85A005B705D /* MapView.swift in Sources */,
+				546A52142FC8AD4D005B705D /* OrderHistoryView.swift in Sources */,
+				546A52032FC8A593005B705D /* CatalologViewModel.swift in Sources */,
+				546A520E2FC8A825005B705D /* UserManager.swift in Sources */,
+				546A520C2FC8A7F5005B705D /* DatabaseManager.swift in Sources */,
+				546A51F12FC8A4BC005B705D /* ContentView.swift in Sources */,
+				546A52122FC8A9C4005B705D /* OrderView.swift in Sources */,
+				546A51EF2FC8A4BC005B705D /* FarmerMarketApp.swift in Sources */,
+				546A52052FC8A5DF005B705D /* CatalogView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		546A52062FC8A6B7005B705D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546A52072FC8A6B7005B705D /* en */,
+				546A52092FC8A75F005B705D /* be */,
+				546A520A2FC8A760005B705D /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546A51F72FC8A4BE005B705D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		546A51F82FC8A4BE005B705D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546A51FA2FC8A4BE005B705D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FarmerMarket/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koshel.FarmerMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		546A51FB2FC8A4BE005B705D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FarmerMarket/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koshel.FarmerMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546A51E62FC8A4BC005B705D /* Build configuration list for PBXProject "FarmerMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546A51F72FC8A4BE005B705D /* Debug */,
+				546A51F82FC8A4BE005B705D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546A51F92FC8A4BE005B705D /* Build configuration list for PBXNativeTarget "FarmerMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546A51FA2FC8A4BE005B705D /* Debug */,
+				546A51FB2FC8A4BE005B705D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546A51E32FC8A4BC005B705D /* Project object */;
+}
