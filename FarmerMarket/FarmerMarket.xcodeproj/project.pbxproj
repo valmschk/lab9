@@ -19,6 +19,8 @@
 		546A520E2FC8A825005B705D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A520D2FC8A825005B705D /* UserManager.swift */; };
 		546A52102FC8A85A005B705D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A520F2FC8A85A005B705D /* MapView.swift */; };
 		546A52122FC8A9C4005B705D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52112FC8A9C4005B705D /* OrderView.swift */; };
+		546A52142FC8AD4D005B705D /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52132FC8AD4D005B705D /* OrderHistoryView.swift */; };
+		546A52162FC8ADAE005B705D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546A52152FC8ADAE005B705D /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		546A520D2FC8A825005B705D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		546A520F2FC8A85A005B705D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		546A52112FC8A9C4005B705D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		546A52132FC8AD4D005B705D /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
+		546A52152FC8ADAE005B705D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				546A52042FC8A5DF005B705D /* CatalogView.swift */,
 				546A520F2FC8A85A005B705D /* MapView.swift */,
 				546A52112FC8A9C4005B705D /* OrderView.swift */,
+				546A52132FC8AD4D005B705D /* OrderHistoryView.swift */,
+				546A52152FC8ADAE005B705D /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,8 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546A52162FC8ADAE005B705D /* RegisterView.swift in Sources */,
 				546A52012FC8A559005B705D /* FarmerProduct.swift in Sources */,
 				546A52102FC8A85A005B705D /* MapView.swift in Sources */,
+				546A52142FC8AD4D005B705D /* OrderHistoryView.swift in Sources */,
 				546A52032FC8A593005B705D /* CatalologViewModel.swift in Sources */,
 				546A520E2FC8A825005B705D /* UserManager.swift in Sources */,
 				546A520C2FC8A7F5005B705D /* DatabaseManager.swift in Sources */,

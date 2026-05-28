@@ -59,4 +59,34 @@ class DatabaseManager {
         }
         sqlite3_finalize(statement)
     }
+    // Метод для загрузки всех заказов из SQLite
+    func fetchOrders() -> [[String: Any]] {
+        let query = "SELECT * FROM Orders;"
+        var statement: OpaquePointer?
+        var result: [[String: Any]] = []
+        
+        if sqlite3_prepare_v2(db, query, -1, &statement, nil) == SQLITE_OK {
+            while sqlite3_step(statement) == SQLITE_ROW {
+                let id = String(cString: sqlite3_column_text(statement, 0))
+                let productName = String(cString: sqlite3_column_text(statement, 1))
+                let price = sqlite3_column_double(statement, 2)
+                let payment = String(cString: sqlite3_column_text(statement, 3))
+                let address = String(cString: sqlite3_column_text(statement, 4))
+                let comment = String(cString: sqlite3_column_text(statement, 5))
+                
+                let order: [String: Any] = [
+                    "id": id,
+                    "product_name": productName,
+                    "price": price,
+                    "payment_method": payment,
+                    "address": address,
+                    "comment": comment
+                ]
+                result.append(order)
+            }
+        }
+        sqlite3_finalize(statement)
+        return result
+    }
+
 }
